@@ -1,0 +1,21 @@
+@if(ramapi) { //ajouter pipe async pour 
+    <article class="ram-api-card">
+        <h2>
+            {{ ramapi.name | titlecase }}
+        </h2>
+
+        <img [src]="ramapi.image" [alt]="ramapi.name"/>
+
+        <p>
+            {{ ramapi.status }} - {{ ramapi.type }}
+        </p>
+
+        <p>
+            Last know location: {{ ramapi.location }}
+        </p>
+
+        <p>
+            First seen in: {{ ramapi.episode }}
+        </p>
+    </article>
+}

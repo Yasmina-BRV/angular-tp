@@ -1,0 +1,15 @@
+<article>
+    <h2>
+        {{ ramapi.name | titlecase }}
+    </h2>
+
+    <p>
+        {{ ramapi.status }} - {{ ramapi.type }}
+    </p>
+
+    @if(ramapi.id) {
+        <button (click)="onShowRamapi(ramapi.id)">
+            Voir le personnage
+        </button>
+    }
+</article>

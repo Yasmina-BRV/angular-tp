@@ -1,0 +1,18 @@
+h2{
+    text-align:center;
+    margin-block:0 1rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 8px;
+    width: 50%;
+}
+
+button {
+    margin: 20px;
+}
